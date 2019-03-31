@@ -3,6 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@storybook/addon-info": "^5.0.5",
+    "@storybook/addon-knobs": "^5.0.5",
+    "@storybook/addon-notes": "^5.0.5",
+    "@storybook/addon-options": "^5.0.5",
+    "@storybook/addon-viewport": "^5.0.5",
     "@storybook/react": "^5.0.5",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -13,6 +18,7 @@
     "build": "react-scripts-ts build  && build-storybook",
     "storybook": "start-storybook -p 6006 -c .storybook",
     "test": "react-scripts-ts test --env=jsdom",
+    "build-storybook": "build-storybook",
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
