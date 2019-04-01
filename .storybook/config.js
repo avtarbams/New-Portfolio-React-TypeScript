@@ -1,7 +1,13 @@
 import { addParameters, configure } from '@storybook/react';
+import { themes } from '@storybook/theming';
 
 addParameters({
   options: {
+       /**
+     * name to display in the top left corner
+     * @type {String}
+     */
+    name: 'Avtar Storybook',
     /**
      * show story component as full screen
      * @type {Boolean}
@@ -68,7 +74,7 @@ addParameters({
     /**
      * theme storybook, see link below
      */
-    theme: undefined,
+    theme: themes.dark,
   },
 });
 
